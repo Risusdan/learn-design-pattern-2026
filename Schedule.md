@@ -133,3 +133,5 @@
 **Why It Matters**: Template Method is the "Hollywood Principle" — don't call us, we'll call you. The framework defines the workflow, and you fill in the specific steps. Every test framework uses this: `setUp()` → `runTest()` → `tearDown()`. The final differentiation exercise is crucial — in practice, the hardest part of design patterns isn't understanding each one, it's *recognizing which one to apply*. Knowing that "I need to decouple creation" points to Creational patterns, "I need to combine objects" points to Structural, and "I need to manage behavior/communication" points to Behavioral is the real skill.
 
 ---
+up:: [MOC-Programming](../../../01-index/MOC-Programming.md)
+#type/learning #source/self-study #status/seed
